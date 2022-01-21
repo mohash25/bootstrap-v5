@@ -11331,4 +11331,50 @@ textarea.form-control-lg {
   max-width: 100%;
 }
 
+.testimonials {
+  position: relative;
+  padding: 0;
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+}
+.testimonials--card {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem 1.25rem;
+  border-radius: 0.625rem;
+  height: auto;
+  text-align: center;
+}
+.testimonials--card i {
+  font-size: 1.5rem;
+  color: rgba(153, 38, 240, 0.7);
+}
+.testimonials--card .ratings i {
+  color: rgba(153, 38, 240, 0.7);
+  font-size: 1rem;
+}
+.testimonials--picture {
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.testimonials--picture img {
+  border: 0.33rem solid rgba(153, 38, 240, 0.7);
+}
+.testimonials--name {
+  padding-top: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+}
+.testimonials--name h3 {
+  padding-top: 0.8rem;
+  text-transform: capitalize;
+}
+.testimonials--name p {
+  padding-bottom: 2rem;
+  text-transform: capitalize;
+}
+
 /*# sourceMappingURL=style.css.map */

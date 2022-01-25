@@ -11260,6 +11260,9 @@ textarea.form-control-lg {
 }
 .intros .video-box a {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .intros .video-box a span i {
   font-size: 6rem;
@@ -11268,7 +11271,7 @@ textarea.form-control-lg {
 
 .border-animation {
   position: absolute;
-  right: 0;
+  top: 0;
   left: 0;
   width: 6rem;
   height: 6rem;
@@ -11469,6 +11472,109 @@ textarea.form-control-lg {
   color: #fff;
   text-decoration: none;
   text-transform: capitalize;
+}
+
+.footer {
+  padding-top: 1rem;
+  background-color: #151414;
+}
+
+.contact-box--icon {
+  width: 2rem;
+  stroke: #9926f0;
+  padding-top: 0.5rem;
+}
+@media (min-width: 576px) {
+  .contact-box--icon {
+    width: 4rem;
+  }
+}
+.contact-box--info {
+  padding: 0.4rem;
+  font-weight: 600;
+}
+.contact-box--info__title {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+@media (min-width: 576px) {
+  .contact-box--info__title {
+    font-size: 1.4rem;
+  }
+}
+.contact-box--info__subtitle {
+  color: #6c757d;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+@media (min-width: 576px) {
+  .contact-box--info__subtitle {
+    font-size: 1rem;
+  }
+}
+
+.footer-sm a {
+  color: #fff;
+}
+.footer-sm a i {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+@media (min-width: 576px) {
+  .footer-sm a i {
+    font-size: 1.6rem;
+  }
+}
+
+.campany-list {
+  display: block;
+  list-style-type: none;
+  position: relative;
+}
+.campany-list li {
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+.campany-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+.campany-list li a:hover {
+  color: #9926f0;
+}
+
+.footer-bottom {
+  background-color: #000;
+}
+.footer-bottom--copy-right {
+  color: #6c757d;
+  font-weight: 400;
+}
+.footer-bottom--copy-right a {
+  color: #dee2e6;
+  text-decoration: none;
+}
+.footer-bottom--copy-right a:hover {
+  color: #9926f0;
+  text-decoration: underline;
+}
+
+.back-to-top {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  right: 1.875rem;
+  bottom: 1.875rem;
+  z-index: 999;
+}
+.back-to-top i {
+  color: .back-to-top i white;
+  font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /*# sourceMappingURL=style.css.map */
